@@ -1,0 +1,12 @@
+hr{
+    border: none;
+    color: red;
+    background-color: red;
+    height: 5px;
+  }
+a {
+   color: yellow
+  }
+img {
+    border: 7px solid #00a8e1;
+   }

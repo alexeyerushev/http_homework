@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test page 1 with button</title>
+    <link rel="stylesheet" type="text/css" href="/http/.idea/SRC1/style.css"/>
+    <style>
+        body{
+        background: url(/http/.idea/SRC1/images/fe2325e69ebf30eded7bfc9745700113.jpeg);
+        }
+        p{
+         color: white;
+           font-size: 150%}
+        .bomb{
+         color: red;
+         text-align: center;
+         font-size: 300%}
+    </style>
+</head>
+<body>
+<h1 align="center">Элементы форм</h1>
+<hr/>
+<form align="center" action="/kotofoto.php" method="post">
+    <p><label for="clientName">Ваше имя</label>
+    <input type="text" id="clientName" name="clientName" />
+    <button type="submit">Отправить имя</button></p>
+</form>
+<hr/>
+<form align="center" action="/kotofoto.php" method="post">
+    <p><label>Ваша фамилия<input type="text" name="clientSurName" /></label>
+    <button type="submit">Отправить фамилию</button></p>
+</form>
+<hr/>
+<<form action="/kotofoto.php" method="post">
+  <p><label> Выбери любимое животное</label><br>
+    <label> медведь
+        <input type="radio" value="1" name="myRadio"></label><br>
+    <label> волк
+        <input type="radio" value="2" name="myRadio"></label><br>
+    <label> лиса
+        <input type="radio" value="3" name="myRadio"></label><br>
+    <label> Никакой
+        <input checked type="radio" value="4" name="myRadio"></label><br></p>
+    <button type="submit">Сделать выбор</button>
+</form>
+<hr/>
+<form align="center"  action="/kotofoto.php" method="post">
+    <p>
+    <label>Какой медведь тебе нравится?</label><br>
+        <label>Бурый
+            <input type="checkbox" name="bears" value="1" ><br>
+        </label>
+        <label>Белый
+            <input type="checkbox" name="bears" value="2"><br>
+        </label>
+        <label>Панда
+            <input type="checkbox" name="bears" value="3"><br>
+        </label>
+    <button type="submit">Сделать выбор</button>
+    </p>
+</form>
+<hr/>
+<form align="center" action="/trikota.php" method="post">
+    <p><label>Выбрать файлы для загрузки</label>
+        <input type="file">
+        <button type="submit">Загрузить</button>
+    </p>
+</form>
+<hr/>
+<form  align="center" action="/trikota.php" method="post">
+    <label class="bomb"> Для запуска ракет нажмите кнопку!</label>
+    <button name="rocket" formaction="/nuclear war.php">
+        <img src="/http/.idea/SRC1/images/400z400_front_29_0_0_0_9a623da4889857fa79342b50690d0b88.jpg" style="vertical-align: middle"></button>
+</form>
+<hr/>
+<form align="center" action="/automobili.php" method="post">
+    <p>
+        <label>выберите подходящее авто</label>
+        <select size="4" name="auto" multiple style="vertical-align: middle">
+            <option value="1">alfa</option>
+            <option value="2">bentli</option>
+            <option value="3">citroen</option>
+            <option value="4">ford</option>
+            <option value="5">jaguar</option>
+            <option value="6">lada</option>
+        </select>
+        <button type="submit">Выбрать</button>
+    </p>
+</form>
+<form align="center" action="/automobili.php" method="post">
+    <p>
+        <label>выберите подходящее авто</label>
+        <select name="auto" style="vertical-align: middle">
+            <option value="1">alfa</option>
+            <option value="2">bentli</option>
+            <option value="3">citroen</option>
+            <option value="4">ford</option>
+            <option value="5">jaguar</option>
+            <option value="6">lada</option>
+        </select>
+        <button type="submit">Выбрать</button>
+    </p>
+</form>
+<hr/>
+<form action="textarea1.php" method="post">
+    <p><b>Напишите ваш отзыв:</b></p>
+    <p><textarea rows="15" cols="100" name="text"></textarea></p>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+<hr/>
+<p class="bomb"><a href="/http/.idea/SRC1/index.html">Парейти на следующую страницу</a></p>
+</body>
+</html>
