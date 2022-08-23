@@ -3,10 +3,50 @@ hr{
     color: red;
     background-color: red;
     height: 5px;
-  }
+   }
+
 a {
-   color: yellow
-  }
+   color: green
+   }
+
 img {
     border: 7px solid #00a8e1;
-   }
+     }
+
+p{
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  face: Arial
+
+  }
+
+.bomb{
+      color: red;
+      text-align: center
+      }
+
+body{
+     background: url(/http/.idea/SRC1/images/2017Winter_Magic_Snowflake_in_the_snow_111412_.jpg);
+     }
+
+table{
+      border: 5px solid green;
+      margin: auto
+      }
+
+h1, h2{
+       color: brown
+       }
+
+td, th {
+        text-align: center;
+        color: black;
+        font-size: 20px
+               }
+
+.fig{
+     text-align: center;
+     color: black;
+     font-size: 40px
+         }
