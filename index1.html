@@ -9,20 +9,15 @@
 <h1 align="center">Элементы форм</h1>
 <hr/>
 <form align="center" action="/kotofoto.php" method="post">
+
     <p><label for="clientName">Ваше имя</label>
         <input type="text" id="clientName" name="clientName"/>
-        <button type="submit">Отправить имя</button>
     </p>
-</form>
-<hr/>
-<form align="center" action="/kotofoto.php" method="post">
+
     <p><label>Ваша фамилия<input type="text" name="clientSurName"/></label>
-        <button type="submit">Отправить фамилию</button>
     </p>
-</form>
-<hr/>
-<form action="/kotofoto.php" method="post">
-    <p><label> Выбери любимое животное</label><br>
+
+     <p><label> Выбери любимое животное</label><br>
         <label> медведь
             <input type="radio" value="1" name="myRadio"></label><br>
         <label> волк
@@ -31,10 +26,7 @@
             <input type="radio" value="3" name="myRadio"></label><br>
         <label> Никакой
             <input checked type="radio" value="4" name="myRadio"></label><br></p>
-    <button type="submit">Сделать выбор</button>
-</form>
-<hr/>
-<form align="center" action="/kotofoto.php" method="post">
+
     <p>
         <label>Какой медведь тебе нравится?</label><br>
         <label>Бурый
@@ -50,20 +42,6 @@
     </p>
 </form>
 <hr/>
-<form align="center" action="/trikota.php" method="post">
-    <p><label>Выбрать файлы для загрузки</label>
-        <input type="file">
-        <button type="submit">Загрузить</button>
-    </p>
-</form>
-<hr/>
-<form align="center" action="/trikota.php" method="post">
-    <label class="bomb"> Для запуска ракет нажмите кнопку!</label>
-    <button name="rocket" formaction="/nuclear war.php">
-        <img src="/http/.idea/SRC1/images/400z400_front_29_0_0_0_9a623da4889857fa79342b50690d0b88.jpg"
-             style="vertical-align: middle"></button>
-</form>
-<hr/>
 <form align="center" action="/automobili.php" method="post">
     <p>
         <label>выберите подходящее авто</label>
@@ -75,19 +53,16 @@
             <option value="5">jaguar</option>
             <option value="6">lada</option>
         </select>
-        <button type="submit">Выбрать</button>
     </p>
-</form>
-<form align="center" action="/automobili.php" method="post">
     <p>
-        <label>выберите подходящее авто</label>
+        <label>выберите подходящую деталь</label>
         <select name="auto" style="vertical-align: middle">
-            <option value="1">alfa</option>
-            <option value="2">bentli</option>
-            <option value="3">citroen</option>
-            <option value="4">ford</option>
-            <option value="5">jaguar</option>
-            <option value="6">lada</option>
+            <option value="1">оптика</option>
+            <option value="2">кузовное</option>
+            <option value="3">ходовая</option>
+            <option value="4">детали двигателя</option>
+            <option value="5">детали трансмиссии</option>
+            <option value="6">прочее</option>
         </select>
         <button type="submit">Выбрать</button>
     </p>
@@ -96,7 +71,18 @@
 <form action="textarea1.php" method="post">
     <p><b>Напишите ваш отзыв:</b></p>
     <p><textarea rows="15" cols="100" name="text"></textarea></p>
+
+    <p><label>Выбрать файлы для загрузки</label>
+        <input type="file">
+    </p>
     <p><input type="submit" value="Отправить"></p>
+</form>
+<hr/>
+<form align="center" action="/trikota.php" method="post">
+    <label class="bomb"> Для запуска ракет нажмите кнопку!</label>
+    <button name="rocket" formaction="/nuclear war.php">
+        <img src="/http/.idea/SRC1/images/400z400_front_29_0_0_0_9a623da4889857fa79342b50690d0b88.jpg"
+             style="vertical-align: middle"></button>
 </form>
 <hr/>
 <p class="bomb"><a href="/http/.idea/SRC1/index.html">Парейти на следующую страницу</a></p>
